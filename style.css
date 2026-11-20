@@ -1,5 +1,26 @@
 .navbar{
     display: flex;
+    position: sticky;
+    top: auto;
+    z-index: 0;
     padding: 50px;
     margin: 100px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.option{
+    display: center;
+    padding: 50px;
+    margin: 10px;
+}
+
+body{
+    background-color: indianred;
+}
+
+.food{
+    display: flex;
+    padding: 50px;
+    margin: 15px;
 }
